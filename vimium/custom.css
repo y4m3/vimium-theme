@@ -190,8 +190,3 @@
         border: none;
     }
 }
-
-::selection {
-    background-color: var(--ctp-peach) !important;
-    color: var(--ctp-mantle) !important;
-}
