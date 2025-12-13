@@ -1,0 +1,14 @@
+map f LinkHints.activateModeToOpenInNewTab
+map F LinkHints.activateMode
+
+map J nextTab
+map K previousTab
+
+map o Vomnibar.activateInNewTab
+map O Vomnibar.activate
+
+unmap x
+map d removeTab
+map u restoreTab
+
+map <C-p> togglePinTab
