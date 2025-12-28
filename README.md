@@ -6,7 +6,6 @@ Personal Vimium (Chrome extension) settings.
 
 - CSS: [vimium/custom.css](vimium/custom.css)
 - Key mappings: [vimium/keymap.txt](vimium/keymap.txt)
-- Optional export backup: [vimium/options-export.json](vimium/options-export.json)
 
 ## Apply
 
