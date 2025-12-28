@@ -5,39 +5,34 @@
  */
 
 :root {
+    /* Catppuccin Macchiato Palette */
+    --ctp-rosewater: #f4dbd6;
+    --ctp-peach: #f5a97f;
+    --ctp-green: #a6da95;
+    --ctp-blue: #8aadf4;
+    --ctp-lavender: #b7bdf8;
+    --ctp-text: #cad3f5;
+    --ctp-subtext0: #a5adcb;
+    --ctp-surface2: #5b6078;
+    --ctp-surface1: #494d64;
+    --ctp-surface0: #363a4f;
+    --ctp-base: #24273a;
+    --ctp-mantle: #1e2030;
+    --ctp-crust: #181926;
 
-    .vimium-reset,
-    #vomnibar,
-    #hud-container {
-        /* Catppuccin Macchiato Palette */
-        --ctp-rosewater: #f4dbd6;
-        --ctp-peach: #f5a97f;
-        --ctp-green: #a6da95;
-        --ctp-blue: #8aadf4;
-        --ctp-lavender: #b7bdf8;
-        --ctp-text: #cad3f5;
-        --ctp-subtext0: #a5adcb;
-        --ctp-surface2: #5b6078;
-        --ctp-surface1: #494d64;
-        --ctp-surface0: #363a4f;
-        --ctp-base: #24273a;
-        --ctp-mantle: #1e2030;
-        --ctp-crust: #181926;
+    /* Theme Configuration */
+    --accent: var(--ctp-green);
+    --accent-secondary: var(--ctp-blue);
+    --text: var(--ctp-text);
+    --background: #333;
+    /* Keep the darker "simply-dark" look */
 
-        /* Theme Configuration */
-        --accent: var(--ctp-green);
-        --accent-secondary: var(--ctp-blue);
-        --text: var(--ctp-text);
-        --background: #333;
-        /* Keep the darker "simply-dark" look */
-
-        /* Calculated Palette */
-        --text-secondary: color-mix(in srgb, var(--text) 70%, transparent);
-        --text-tertiary: color-mix(in srgb, var(--text) 45%, transparent);
-        --background-selected: color-mix(in srgb, var(--background), #000 20%);
-        --border-primary: var(--ctp-surface0);
-        --box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
-    }
+    /* Calculated Palette */
+    --text-secondary: color-mix(in srgb, var(--text) 70%, transparent);
+    --text-tertiary: color-mix(in srgb, var(--text) 45%, transparent);
+    --background-selected: color-mix(in srgb, var(--background), #000 20%);
+    --border-primary: var(--ctp-surface0);
+    --box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
 }
 
 @keyframes show {
